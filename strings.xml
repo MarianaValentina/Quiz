@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">QuizzProject</string>
+
+    <string name="title_of_fashion_quiz">Let\'s start the fashion quiz</string>
+    <string name="title_of_sports_quiz">Let\'s start the sports quiz</string>
+    <string name="title_of_culture_quiz">Let\'s start the culture quiz</string>
+
+
+    <string name="see_answer_fashion_quiz">See the results</string>
+    <string name="see_answer_sports_quiz">See the results</string>
+    <string name="see_answer_culture_quiz">See the results</string>
+
+
+    <!-- FASHION QUIZ -->
+    <!-- QUESTIONS AND ANSWERS -->
+    <!--    Question I   -->
+    <string name="question1_fashionQuiz">1. Who created the first pair of blue jeans?</string>
+    <string name="q1_a1_fashion_R">Levis Strauss</string>
+    <string name="q1_a2_fashion">Riccardo Tisci</string>
+    <string name="q1_a3_fashion">Olivier Rousteing</string>
+
+    <!--    Question  II  -->
+    <string name="question2_fashionQuiz">2. Which Italian fashion designer launched the first virtual online museum in December 2011?</string>
+    <string name="q2_a1_fashion">Gucci</string>
+    <string name="q2_a2_fashion">Dior</string>
+    <string name="q2_a3_fashion_R">Valentino</string>
+
+    <!--    Question  III  -->
+    <string name="question3_fashionQuiz">3. ‘Coach’ is a brand name for which fashion items?</string>
+    <string name="answer_question3_fashion">Write here your answer</string>
+
+    <!--    Question  IV  -->
+    <string name="question4_fashionQuiz">4. Shantung is a type of which fabric?</string>
+    <string name="q4_a1_fashion">Cotton</string>
+    <string name="q4_a2_fashion_R">Silk</string>
+    <string name="q4_a3_fashion">Wool</string>
+
+    <!--    Question  V  -->
+    <string name="question5_fashionQuiz">5. Which Italian-born fashion designer introduced the colour ‘Shocking Pink’ in 1936?</string>
+    <string name="q5_a1_fashion">Alessandra Facchinetti</string>
+    <string name="q5_a2_fashion_R">Elsa Schiaparelli</string>
+    <string name="q5_a3_fashion">Carlo Palazzi</string>
+
+    <!--    Question  VI  -->
+    <string name="question6_fashionQuiz">6. Fashion retailer H&amp;M was founded in which European country?</string>
+    <string name="q6_a1_fashion_R">Sweden</string>
+    <string name="q6_a2_fashion">Spain</string>
+    <string name="q6_a3_fashion">Italy</string>
+
+    <!--    Question  VII  -->
+    <string name="question7_fashionQuiz">7. What is a person who makes and sells ladies hats called?</string>
+    <string name="answer_question7_fashion">Write here your answer</string>
+
+
+    <!--    Question  VIII  -->
+    <string name="question8_fashionQuiz">8. In the fashion industry, what does ‘Pret-a-porter’ mean?</string>
+    <string name="q8_a1_fashion_R">Ready to wear</string>
+    <string name="q8_a2_fashion">High Class</string>
+    <string name="q8_a3_fashion">Luxury clothing</string>
+
+    <!--    Question  IX  -->
+    <string name="question9_fashionQuiz">9. The wool of a Shahtoosh shawl comes from which endangered animal?</string>
+    <string name="q9_a1_fashion">Vicuna</string>
+    <string name="q9_a2_fashion">Alpaca</string>
+    <string name="q9_a3_fashion_R">Tibetan Antelope</string>
+
+    <!--    Question  X  -->
+    <string name="question10_fashionQuiz">10. Vestiophobia is the irrational fear of which items?</string>
+    <string name="answer_question10_fashion">Write here your answer</string>
+
+
+<!-- .......................................................................................................................... -->
+<!-- .......................................................................................................................... -->
+<!-- .......................................................................................................................... -->
+
+
+    <!-- SPORTS QUIZ -->
+    <!-- QUESTIONS AND ANSWERS -->
+    <!--    Question I   -->
+    <string name="question1_sportsQuiz">1.What NFL team has won the most Super Bowl games to date?</string>
+    <string name="q1_a1_sports">The Minnesota Vikings </string>
+    <string name="q1_a2_sports">The New England Patriots</string>
+    <string name="q1_a3_sports_R">The Pittsburgh Steelers</string>
+
+    <!--    Question  II  -->
+    <string name="question2_sportsQuiz">2. Who was the first person to defeat Mike Tyson?</string>
+    <string name="answer_question2_sports">Write here your answer</string>
+
+    <!--    Question  III  -->
+    <string name="question3_sportsQuiz">3. Who\'s home ground is Old Trafford?</string>
+    <string name="q3_a1_sports_R">Manchester United</string>
+    <string name="q3_a2_sports">Burnley</string>
+    <string name="q3_a3_sports">Middlesbrough</string>
+
+    <!--    Question  IV  -->
+    <string name="question4_sportsQuiz">4. How many undefeated fights had Mike Tyson before losing he\'s first fight?</string>
+    <string name="answer_question4_sports">Write here your answer</string>
+
+    <!--    Question  V  -->
+    <string name="question5_sportsQuiz">5. Female players who were WTA no. 1?</string>
+    <string name="q5_a1_sports_R">Steffi Graf</string>
+    <string name="q5_a2_sports_R">Simona Halep</string>
+    <string name="q5_a3_sports">Svetlana Kuznetsova</string>
+
+    <!--    Question  VI  -->
+    <string name="question6_sportsQuiz">6. Who was the first hoopster to win eight NBA scoring titles?</string>
+    <string name="q6_a1_sports_R">Michael Jordan</string>
+    <string name="q6_a2_sports">Bill Russel</string>
+    <string name="q6_a3_sports">Phil Jackson</string>
+
+    <!--    Question  VII  -->
+    <string name="question7_sportsQuiz">7. What age was Rory McIlroy when he won hes first major?</string>
+    <string name="answer_question7_sports">Write here your answer</string>
+
+    <!--    Question  VIII  -->
+    <string name="question8_sportsQuiz">8. Who are the football players whom won five times the "Golden Ball"?</string>
+    <string name="q8_a1_sports_R">Lionel Messi</string>
+    <string name="q8_a2_sports">Zinedine Zidane</string>
+    <string name="q8_a3_sports_R">Cristiano Ronaldo</string>
+
+    <!--    Question  IX  -->
+    <string name="question9_sportsQuiz">9. Horse racing\'s Melbourne Cup is held in what month?</string>
+    <string name="answer_question9_sports">Write here your answer</string>
+
+    <!--    Question  X  -->
+    <string name="question11_sportsQuiz">10. Choose the wright option:</string>
+    <string name="q10_a1_sports_R">In 1900, Paris is the first year in which women could participate in the Olympics,
+        and as a reward, the winners received paintings, not medals.</string>
+    <string name="q10_a2_sports_R">Nadia Comaneci is the first sportsman in history to score 10 in an Olympic
+        gymnastics competition, at the 1976 Olympics in Montreal.</string>
+    <string name="q10_a3_sports_R">In 1900, in Paris, the canoeing team of the Netherlands needed a new helm in the last minute,
+        and for this role a French little boy was chosen from the audience. Until today it is not known who the boy was or what
+        age he had.</string>
+
+
+    <!-- .......................................................................................................................... -->
+    <!-- .......................................................................................................................... -->
+    <!-- .......................................................................................................................... -->
+
+
+    <!-- CULTURE QUIZ -->
+    <!-- QUESTIONS AND ANSWERS -->
+    <!--    Question I    -->
+    <string name="question1_cultureQuiz">1. What is the capital of Romania?</string>
+    <string name="answer_question1_culture">Write here your answer</string>
+
+    <!--    Question  II   -->
+    <string name="question2_cultureQuiz">2.Who is the founder of Instagram?</string>
+    <string name="q2_a1_culture">Jack Dorsey</string>
+    <string name="q2_a2_culture_R">Kevin Systrom</string>
+    <string name="q2_a3_culture">Jan Koum</string>
+
+    <!--    Question  III   -->
+    <string name="question3_cultureQuiz">3.Which bird\'s pink plumage is derived from pigments in its food?</string>
+    <string name="q3_a1_culture_R">Flamingo </string>
+    <string name="q3_a2_culture">Pelican</string>
+    <string name="q3_a3_culture">Macaw</string>
+
+
+    <!--    Question  IV   -->
+    <string name="question4_cultureQuiz">4. Which of the following planets rotates clockwise?</string>
+    <string name="q4_a1_culture">Jupiter</string>
+    <string name="q4_a2_culture">Neptun</string>
+    <string name="q4_a3_culture_R">Venus</string>
+
+    <!--    Question  V   -->
+    <string name="question5_cultureQuiz">5. The salt is chemically obtained by the reaction between:</string>
+    <string name="q5_a1_culture_R">Hydrochloric Acid</string>
+    <string name="q5_a2_culture_R">Sodium Hydroxide</string>
+    <string name="q5_a3_culture">Sodium Hydrogen</string>
+
+
+    <!--    Question  VI  -->
+    <string name="question6_cultureQuiz">6. What is the chemical symbol for lead?</string>
+    <string name="q6_a1_culture">AD</string>
+    <string name="q6_a2_culture_R">PB</string>
+    <string name="q6_a3_culture">LE</string>
+
+
+    <!--    Question  VII  -->
+    <string name="question7_cultureQuiz">7. What is the fear of heights called?</string>
+    <string name="answer_question7_culture">Write here your answer</string>
+
+
+    <!--    Question  VIII  -->
+    <string name="question8_cultureQuiz">8. Choose only the conjunctions.</string>
+    <string name="q8_a1_culture_R">and</string>
+    <string name="q8_a2_culture_R">but</string>
+    <string name="q8_a3_culture_R">or</string>
+
+    <!--    Question  IX  -->
+    <string name="question9_cultureQuiz">9. The process of a liquid turning into a gas is called:</string>
+    <string name="answer_question9_culture">Write here your answer</string>
+
+
+    <!--    Question  X   -->
+    <string name="question10_cultureQuiz">10. For a proper fraction, the numerator is:</string>
+    <string name="q10_a1_culture">greater than the denominator</string>
+    <string name="q10_a2_culture">equal to the denominator</string>
+    <string name="q10_a3_culture_R">less than the denominator</string>
+
+
+</resources>
