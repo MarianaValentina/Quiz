@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizzproject.Sports_Quizz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="@drawable/sports"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViews"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height"
+            android:background="#00334d"
+            android:text="@string/title_of_sports_quiz"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question1_sportsQuiz" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_a1_sports" />
+
+                <RadioButton
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_a2_sports" />
+
+                <RadioButton
+                    android:id="@+id/answer_three_question_one_sports_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_a3_sports_R" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2_sportsQuiz" />
+
+            <EditText
+                android:id="@+id/answer_question_two_sports_quiz"
+                style="@style/EditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/answer_question2_sports"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_sportsQuiz" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/answer_one_question_three_sports_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_a1_sports_R" />
+
+                <RadioButton
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_a2_sports" />
+
+                <RadioButton
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_a3_sports" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question4_sportsQuiz" />
+
+            <EditText
+                android:id="@+id/answer_question_four_sports_quiz"
+                style="@style/EditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/answer_question4_sports"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question5_sportsQuiz" />
+
+            <CheckBox
+                android:id="@+id/answer_one_question_five_sports_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_a1_sports_R" />
+
+            <CheckBox
+                android:id="@+id/answer_two_question_five_sports_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_a2_sports_R" />
+
+            <CheckBox
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_a3_sports" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question6_sportsQuiz" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/answer_one_question_six_sports_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q6_a1_sports_R" />
+
+                <RadioButton
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q6_a2_sports" />
+
+                <RadioButton
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q6_a3_sports" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question7_sportsQuiz" />
+
+            <EditText
+                android:id="@+id/answer_question_seven_sports_quiz"
+                style="@style/EditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/answer_question7_sports"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question8_sportsQuiz" />
+
+            <CheckBox
+                android:id="@+id/answer_one_question_eight_sports_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q8_a1_sports_R" />
+
+            <CheckBox
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q8_a2_sports" />
+
+            <CheckBox
+                android:id="@+id/answer_three_question_eight_sports_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q8_a3_sports_R" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question9_sportsQuiz" />
+
+            <EditText
+                android:id="@+id/answer_question_nine_sports_quiz"
+                style="@style/EditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/answer_question9_sports"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question11_sportsQuiz" />
+
+            <CheckBox
+                android:id="@+id/answer_one_question_ten_sports_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/q10_a1_sports_R" />
+
+            <CheckBox
+                android:id="@+id/answer_two_question_ten_sports_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/q10_a2_sports_R" />
+
+            <CheckBox
+                android:id="@+id/answer_three_question_ten_sports_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q10_a3_sports_R" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sports_button"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00334d"
+            android:onClick="seeAnswerSportsQuiz"
+            android:text="@string/see_answer_sports_quiz"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
